@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import SignUp from "./RegisterPage";
 import Login from './LoginPage';
 import MainPage from './MainPage';
+import SecondaryPage from "./SecondaryPage";
 import { useNavigate } from 'react-router-dom';
 import Register from './RegisterPage';
 import './App.css'
@@ -115,6 +116,12 @@ function App() {
         <Route 
           path="/main" 
           element={<MainPage logout={logout} user={user} />}
+        />
+
+        {/* Route za Secondary Page nakon logina */}
+        <Route 
+          path="/secondary" 
+          element={<SecondaryPage logout={logout} user={user}/>}
         />
       </Routes>
     </div>

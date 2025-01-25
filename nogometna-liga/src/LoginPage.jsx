@@ -27,9 +27,7 @@ function Login({ signup }) {
       <div className="left-side">
         <h1 className="main-title">NOGOMETNA LIGA</h1>
         <p className="description-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Curabitur eget nisl nec nulla vehicula porttitor. 
-          Mauris consequat tincidunt eros, eu dapibus urna mollis vel.
+          Mjesto za najveće navijače sa željom da prate sve nogometne lige svijeta
         </p>
       </div>
 
