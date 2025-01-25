@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { auth } from /config/firebase-configClubs;
-import { onAuthStateChanged } from firebase/auth;
+import { auth } from './config/firebase-config';
+import { onAuthStateChanged } from 'firebase/auth';
 import './SecondaryPage.css';
 import logo from './assets/logo.png';
 
