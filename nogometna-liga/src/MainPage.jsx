@@ -12,10 +12,10 @@ function MainPage({ logout, user }) {
     <div className="main-page-container">
       
         <div className="top-side">
-          <h1 >Nogometna liga</h1>
+          <h1 >NOGOMETNA LIGA</h1>
           <div className='user-show'>
-            <p>User: {user.email}</p>
             <button onClick={logout}>Sign Out</button>
+            <p>User: {user.email}</p>
           </div>
           <div className='header-content'>
             <nav className="navbar">
@@ -45,9 +45,6 @@ function MainPage({ logout, user }) {
 
         <div className="main-secondary-container">
 
-          <div className="main-window-leftside">
-            <h1>LEVA</h1>
-          </div>
 
           
           <div className="main-window-rightside">
@@ -91,6 +88,471 @@ function MainPage({ logout, user }) {
                 <tr>
                   <td>2025-01-23</td>
                   <td>LEI vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>2025-01-23</td>
+                  <td>SA vs WOL</td>
                   <td>3-0</td>
                 </tr>
                 <tr>
