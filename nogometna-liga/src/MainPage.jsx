@@ -9,6 +9,7 @@ import {useTable} from 'react-table';
 
 
 function MainPage({ logout, user }) {
+  const [searchTerm, setSearchTerm] = React.useState("");
 
   const data = React.useMemo(() => DataUt,[]);
   const columns = React.useMemo(() => [
@@ -31,12 +32,18 @@ function MainPage({ logout, user }) {
   ],
   []
  );
-
-  const {getTableProps, getTableBodyProps, headerGroups, rows, prepareRow} = useTable({columns,data});  
+ const filteredData = React.useMemo(() => {
+  if (!searchTerm) return data; // Ako je polje za pretragu prazno, vraća sve podatke
+  return data.filter(
+    (column) =>
+      column.team1.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      column.team2.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+}, [data, searchTerm]);
+  const {getTableProps, getTableBodyProps, headerGroups, rows, prepareRow} = useTable({ columns, data: filteredData});  
 
   return (
     <div className="main-page-container">
-      
         <div className="top-side">
           <h1 >Nogometna liga</h1>
           <div className='user-show'>
@@ -60,6 +67,9 @@ function MainPage({ logout, user }) {
                 <div className='search-bar'>
                   <input
                     className="search-container"
+                    placeholder="Pretraži po klubu..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
                   />
                   <button type="submit" className="search-button">
                     <img src={searchIcon} alt="Search" className="search-icon" />
@@ -70,10 +80,6 @@ function MainPage({ logout, user }) {
         </div>
 
         <div className="main-secondary-container">
-
-          
-
-          
           <div className="main-window-rightside">
             <h1 className='title-text'>REZULTATI</h1>
             <div className="football-matches-container">
@@ -100,8 +106,12 @@ function MainPage({ logout, user }) {
                         </td>
                       ))}
                     </tr>
-                  )
-                })}
+                    );
+                  })
+                  }
+                  <tr>
+                    <td colSpan={columns.length}>Nema rezultata</td>
+                  </tr>
               </tbody>
             </table>
           </div>
