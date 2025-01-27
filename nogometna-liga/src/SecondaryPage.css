@@ -13,13 +13,14 @@ body{
     background-color: rgba(85, 85, 85, 0);
 }
 .s-user-show{
-  height: 10vh;
-  width: 118vh;
-  text-align: center;
-  padding: 2px;
-  position: fixed;
-  bottom: 2%;
-  background-color: #34333341;
+    display: block;
+    height: 10vh;
+    width: 120vh;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 2%;
+    background-color: #9c9a9a67;
 }
 
 .s-top-side{
@@ -70,7 +71,7 @@ body{
     margin: 20px;
     padding: 20px;
     background-color: #00000030;
-    color: #ffffff;
+    color: #000000;
     border-radius: 8px;
     max-width: 1000px;
     margin-left: auto;
@@ -112,7 +113,6 @@ body{
     text-align: center;
     height: -50px;
   }
-  
 
 
 
