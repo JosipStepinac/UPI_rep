@@ -1,5 +1,9 @@
 
 .main-page-container {
+    background-image: url(assets/lopta.webp);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
     display: block;
     height: 100vh;
     width: 120vh;
@@ -17,16 +21,16 @@
 }
 
 .top-side{
-    background-color: #000000;
+    background-color: #3cbb1ce2;
     width: 99.3%;
     padding: 2px;
     text-align: center;
-    border: 2px solid #00ffe5;
+    border: 2px solid #3cbb1c;
 }
 
 .header-content {
     display: block;
-    border: 2px solid #00ffe5;  
+    border: 2px solid #00ffe500;  
 }
 
 .main-secondary-container{
@@ -36,22 +40,16 @@
     font-family: Arial, sans-serif;
 }
 
-.main-window-leftside {
-    display: flex;
-    flex-direction: row;
-    justify-content: top;
-    align-items: center;
-    padding: 2px;
-    text-align: center;
-    border: 2px solid #00ffe5;
-}
-
 .header-one{
     position: absolute;
     top: 200px;
 }
 
 .main-window-rightside {
+    background-image: url(assets/soccerfield.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: repeat 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +57,8 @@
     padding: 2px;
     width: 100%;
     text-align: center;
-    border: 2px solid #00ffe5;
+        background-color: #3cbb1ce2;
+    border: 2px solid #00ff73;
 }
 
 ul, li, a {
@@ -73,12 +72,12 @@ ul, li, a {
 body {
     font-family: Arial, sans-serif;
     font-style: italic;
-    background-color: #000000;
+    background-color: #3cbb1ce2;
 }
-
+/* TXT REZULTATI */
 .navbar {
     display: flex;
-    background-color: #ffffff;
+    background-color: #3cbb1c00;
     padding: 10px;
 }
 
@@ -93,7 +92,7 @@ body {
 }
 
 .navbar ul li a {
-    color: rgb(4, 0, 0);
+    color: rgb(1, 0, 0);
     padding: 10px 20px;
     display: block;
     font-size: 1rem;
@@ -111,7 +110,7 @@ body {
     position: absolute;
     top: 100%; /* Pozicija ispod gumba */
     left: 0;
-    background-color: rgb(255, 255, 255);
+    background-color:  #3cbb1ce2;
     min-width: 150px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -119,14 +118,14 @@ body {
 }
 
 .dropdown-content a {
-    color: #070000;
+    color:  #3cbb1ce2;
     padding: 10px 15px;
     display: block;
     font-size: 0.9rem;
 }
 
 .dropdown-content a:hover {
-    background-color: #000000;
+    background-color: #3cbb1ce2;
     color: #00ffe5;
 }
 
@@ -135,7 +134,7 @@ body {
 }
 
 .search-container{
-    width: 100%;
+    width: 70px;
     padding: 8px;
     margin: 10px 0;
     border: 1px solid #ddd;
@@ -168,45 +167,48 @@ body {
 }
 
 .title-text{
-    position: relative;
-    margin-top: -10%
+    position: absolute;
+    top: 250px;
 }
 
 
 .football-matches-container {
+    position: absolute;
+    top:400px;
     margin: 20px;
     padding: 20px;
-    max-width: 800px;
-    background-color: #272525;
+    background-color: #3cbb1ce2;
     border-radius: 8px;
     border: 2px solid #00ffe5;
   }
   
   .football-matches-table {
-    width: 100%;
+    display: block;
+    overflow-y: auto;
+    max-height: 500px;
+    width: 700px;
     border-collapse: collapse;
-    text-align: left;
   }
   
   .football-matches-table thead {
-    background-color: #000000;
+    background-color:  rgb(192, 4, 4);
     color: rgb(255, 255, 255);
     border: 2px solid #00ffe5;
   }
   
   .football-matches-table th, 
   .football-matches-table td {
-    
-    padding: 26px;
+    width: 700px;
+    padding: 5px;
     border: 2px solid #00ffe5;
   }
   
   .football-matches-table tr:nth-child(even) {
-    background-color: #000000;
+    background-color:rgb(255, 0, 0);
   }
   
   .football-matches-table tr:hover {
-    background-color: #5aac92;
+    background-color: rgb(232, 232, 0);
   }
   
   .football-matches-table th {

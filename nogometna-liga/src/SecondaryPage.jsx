@@ -55,9 +55,12 @@ function SecondaryPage({ logout, user }) {
           
           <h1 className="premier">Premier League</h1>
           <div className='s-user-show'>
-            <p>User: {user.email}</p>
             <button onClick={logout}>Sign Out</button>
+            <p>User: {user.email}</p>
           </div>
+        </div>
+        <div className='goback'>
+              <a href="javascript: history.go(-1)">⬅</a>
         </div>
 
         <div className="secondary-container">
