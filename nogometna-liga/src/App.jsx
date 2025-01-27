@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import Register from './RegisterPage';
 import './App.css'
 import {auth} from "./config/firebase-config";
+import PreviousWinners from './PreviousWinners';
 function App() {
 
   /// Konstante koje prate tko je ulogiran, tj za registraciju.
@@ -122,7 +123,20 @@ function App() {
         <Route 
           path="/secondary" 
           element={<SecondaryPage logout={logout} user={user}/>}
+        
+
+
         />
+        {/* Route za PreviousWinners nakon login */}
+        <Route 
+          path="/previous-winners" 
+          element={<PreviousWinners logout={logout} user={user}/>}
+        
+
+
+        />
+
+        
       </Routes>
     </div>
   );}

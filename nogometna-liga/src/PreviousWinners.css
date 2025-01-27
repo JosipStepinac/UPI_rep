@@ -1,0 +1,85 @@
+.winners-page-container {
+    background-image: url(assets/soccerfield.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 150vh;
+    width: 120vh;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    background-color: rgba(85, 85, 85, 0);
+  }
+  .winners-user-show {
+    display: block;
+    height: 10vh;
+    width: 120vh;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 2%;
+    background-color: #9c9a9a67;
+  }
+  .winners-top-side {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+  }
+  .logo {
+    position: relative;
+    top: -40px;
+    left: -270px;
+    width: 100px;
+    height: auto;
+  }
+  .premier {
+    position: relative;
+    top: 1px;
+    left: -60px;
+    color: #000000;
+  }
+  .winners-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #00000030;
+    color: #000000;
+    border-radius: 8px;
+    max-width: 800px;
+    text-align: center;
+  }
+  .winners-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .winners-table th,
+  .winners-table td {
+    padding: 10px;
+    border: 1px solid #59c8a5d8;
+    text-align: center;
+  }
+  .winners-table th {
+    background-color: #3cbb1c90;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .winners-table tr:nth-child(even) {
+    background-color: #3cbb1c90;
+  }
+  .winners-table tr:hover {
+    background-color: #00e1ff;
+  }
+  .goback {
+    position: absolute;
+    top: 55px;
+    left: 400px;
+    background-color: #0d3004;
+    border: 2px solid #ffff;
+    width: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: -50px;
+  }
