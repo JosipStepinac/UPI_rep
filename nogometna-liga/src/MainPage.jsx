@@ -49,6 +49,7 @@ function MainPage({ logout, user }) {
           <div className='user-show'>
             <p>User: {user.email}</p>
             <button onClick={logout}>Sign Out</button>
+            <a href="/previous-winners">Prethodni Pobednici</a>
           </div>
           <div className='header-content'>
             <nav className="navbar">
