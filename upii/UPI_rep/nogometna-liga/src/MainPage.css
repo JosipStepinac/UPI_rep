@@ -1,0 +1,217 @@
+.main-page-container {
+    background-image: url(assets/lopta.webp);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: block;
+    height: 100vh;
+    width: 120vh;
+    font-family: Arial, sans-serif;
+}
+
+.user-show{
+    height: 10vh;
+    width: 118vh;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 2%;
+    background-color: #34333341;
+}
+
+.top-side{
+    background-color: #3cbb1ce2;
+    width: 99.3%;
+    padding: 2px;
+    text-align: center;
+    border: 2px solid #3cbb1c;
+}
+
+.header-content {
+    display: block;
+    border: 2px solid #00ffe500;  
+}
+
+.main-secondary-container{
+    background-color: #000000;
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.header-one{
+    position: absolute;
+    top: 200px;
+}
+
+.main-window-rightside {
+    background-image: url(assets/soccerfield.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: repeat 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+        background-color: #3cbb1ce2;
+    border: 2px solid #00ff73;
+}
+
+ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    background-color: #3cbb1ce2;
+}
+/* TXT REZULTATI */
+.navbar {
+    display: flex;
+    background-color: #3cbb1c00;
+    padding: 10px;
+}
+
+.navbar ul {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    color: rgb(1, 0, 0);
+    padding: 10px 20px;
+    display: block;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #069a88;
+    border-radius: 5px;
+}
+
+/* Stil za padajući izbornik */
+.dropdown-content {
+    display: none; /* Skriva sadržaj padajućeg izbornika */
+    position: absolute;
+    top: 100%; /* Pozicija ispod gumba */
+    left: 0;
+    background-color:  #3cbb1ce2;
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color:  #3cbb1ce2;
+    padding: 10px 15px;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.dropdown-content a:hover {
+    background-color: #3cbb1ce2;
+    color: #00ffe5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search-container{
+    width: 70px;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.search-bar {
+    position: relative;
+    padding-left: 75%;
+    display: flex;
+    justify-content: right;
+  }
+  
+.search-button {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 2px;
+    color: #333;
+    margin-left: 1px;
+}
+
+.search-icon {
+    width: 30px;  /* Size the image as needed */
+    height: 30px;
+}
+
+.title-text{
+    position: absolute;
+    top: 250px;
+}
+
+
+.football-matches-container {
+    position: absolute;
+    top:400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #3cbb1ce2;
+    border-radius: 8px;
+    border: 2px solid #00ffe5;
+  }
+  
+  .football-matches-table {
+    display: block;
+    overflow-y: auto;
+    max-height: 500px;
+    width: 700px;
+    border-collapse: collapse;
+  }
+  
+  .football-matches-table thead {
+    background-color:  rgb(192, 4, 4);
+    color: rgb(255, 255, 255);
+    border: 2px solid #00ffe5;
+  }
+  
+  .football-matches-table th, 
+  .football-matches-table td {
+    width: 700px;
+    padding: 5px;
+    border: 2px solid #00ffe5;
+  }
+  
+  .football-matches-table tr:nth-child(even) {
+    background-color:rgb(255, 0, 0);
+  }
+  
+  .football-matches-table tr:hover {
+    background-color: rgb(232, 232, 0);
+  }
+  
+  .football-matches-table th {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
