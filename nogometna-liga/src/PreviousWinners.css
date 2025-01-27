@@ -28,12 +28,11 @@
     padding: 2px;
     text-align: center;
   }
-  .logo {
+  .logof {
     position: relative;
-    top: -40px;
-    left: -270px;
+    left: -50px;
     width: 100px;
-    height: auto;
+    height: 100px;
   }
   .premier {
     position: relative;

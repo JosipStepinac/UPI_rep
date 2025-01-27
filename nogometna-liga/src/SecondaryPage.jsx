@@ -1,14 +1,16 @@
+import Data from './en.1.clubs.json';
 import * as React from 'react';
 import { auth } from './config/firebase-config';
 import { onAuthStateChanged } from 'firebase/auth';
 // import dataClubs from S;
 import './SecondaryPage.css';
 import logo from './assets/logo.png';
-import Data from './en.1.clubs.json';
+import { useNavigate } from 'react-router-dom';
 import {useTable} from 'react-table';
 
 
 function SecondaryPage({ logout, user }) {
+  const navigate = useNavigate();
 
   const data = React.useMemo(() => Data,[]);
   const columns = React.useMemo(() => [
@@ -53,11 +55,15 @@ function SecondaryPage({ logout, user }) {
     );
   }
 
+  const goToPreviousWinners = () => {
+    navigate('/previous-winners');
+  };
+
   return (
     <div className="s-page-container">
       
-        <div className="s-top-side">
-          <img src={logo} alt="Logo" className="logo" /> 
+        <div className="s-top-side"> 
+        <img src={logo} alt="Logo" className="logo" />
           
           <h1 className="premier">Premier League</h1>
           <div className='s-user-show'>
@@ -68,7 +74,6 @@ function SecondaryPage({ logout, user }) {
         <div className='goback'>
               <a href="javascript: history.go(-1)">⬅</a>
         </div>
-
 
         <div className="secondary-container">
 
@@ -105,6 +110,8 @@ function SecondaryPage({ logout, user }) {
             </div>
           </div>
         </div>
+
+        <button className="dugme" onClick={goToPreviousWinners}>Go to Previous Winners</button>
     </div>
   )
 }
