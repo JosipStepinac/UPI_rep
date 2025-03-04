@@ -49,9 +49,9 @@ function SecondaryPage({ logout, user }) {
 
   if (!user) {
     return (
-      <div>
+      // <div> Moze se zakomentirati div posto nema nikakvu svrhu za smanjenje kompleksnosti
         <h2>Please log in to view the standings</h2>
-      </div>
+      // </div>
     );
   }
 
