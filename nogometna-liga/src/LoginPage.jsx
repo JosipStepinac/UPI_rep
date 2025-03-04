@@ -49,7 +49,7 @@ function Login({ signup }) {
           <button className="login-button" onClick={login}>
             Login
           </button>
-          <hr id = "hr-separator"></hr>
+          <hr id = "hr-separator"></hr> {/* moze se zakomentirat za smanjenje kompleksnosti*/}
           <button className="login-button" id="signup-button" onClick={signup}>Go to Sign Up</button>
         </div>
       </div>
